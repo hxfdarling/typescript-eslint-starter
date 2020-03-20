@@ -1,6 +1,6 @@
-import { greeter } from './utils/utils';
+import { greeter } from './util';
 
-function main() {
+export function main() {
   const userName = 'Node Hero';
   console.log('---------');
   console.log(greeter(userName));

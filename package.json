@@ -12,7 +12,7 @@
     "lint:style": "stylelint --fix src/**/*.{less,scss,css}",
     "build": "rimraf lib && tsc",
     "test": "jest --coverage",
-    "test:w": "jest --watchAll --rootDir --passWithNoTests",
+    "test:w": "jest --watchAll --passWithNoTests",
     "lint": "eslint --config .eslintrc.yml --fix src/** --ext .ts",
     "prerelease": "npm run lint && npm run test && npm run build",
     "release": "standard-version && git push --tags",
